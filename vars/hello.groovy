@@ -1,3 +1,4 @@
 def call(Map config = [:]){
-    bat "echo Hello ${config.name}, tody is ${config.day}"
+    bat "echo Hello ${config.name}, today is ${config.day}"
+    bat "echo hihihihihi"
 }
